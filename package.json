@@ -6,7 +6,7 @@
     "@mui/material": "^5.14.13"
   },
   "scripts": {
-    "deploy": "cd client && npm run build && cd ./server && npm run deploy"
+    "deploy": "cd client && npm run build && cd ../server && npm run deploy"
   },
   "devDependencies": {
     "gh-pages": "^6.0.0"
