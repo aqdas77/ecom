@@ -1,5 +1,4 @@
 {
-  "homepage": "https://aqdas77.github.io/ecom",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -7,15 +6,9 @@
     "@mui/material": "^5.14.13"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "deploy": "cd client && npm run build && cd ../server && npm run deploy"
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0",
-    "react-scripts": "^5.0.1"
+    "gh-pages": "^6.0.0"
   }
 }
